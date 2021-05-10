@@ -1,6 +1,7 @@
 "use strict";
 
-const numberOfFilms = +prompt('How many movies have you watched?', '');
+// Lesson 12
+/* const numberOfFilms = +prompt('How many movies have you watched?', '');
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -18,4 +19,22 @@ const a = prompt('One of the last movie:', ''),
 personalMovieDB.movie[a] = b;   
 personalMovieDB.movie[c] = d;
 
-console.log(personalMovieDB);
+console.log(personalMovieDB); */
+
+// Lesson 13
+
+if (4 == 4) {
+    console.log('Ok!');
+} else {
+    console.log('Error!');
+}
+
+const num = 50;
+
+if (num < 49) {
+    console.log('Error');
+} else if (num > 100) {
+    console.log('Too many');
+} else {
+    console.log('Ok!');
+}
