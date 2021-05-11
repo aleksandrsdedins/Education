@@ -97,4 +97,45 @@ for (let i = 1; i < 10; i++) {
 }
 
 */
+// Lesson 15
+/*
+const numberOfFilms = +prompt('How many movies have you watched?', '');
 
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    ganres: [],
+    privat: false
+};
+
+for (let i = 0; i < 2; i++) {
+    const a = prompt('One of the last movie?', ''),
+        b = prompt('How you evaluate it?', '');
+
+    if (a != null && b != null && a != '' && b != '' && a.length < 50) {
+        personalMovieDB.movies[a] = b;
+        console.log('Done');
+    } else {
+        console.log('Error');
+        i--;
+    }
+}
+
+if (personalMovieDB.count < 10) {
+    alert('You have watched a few movies!');
+} else {
+    if (personalMovieDB.count >= 10 && personalMovieDB.count <= 30) {
+        alert('You are classical viewer!');
+    } else {
+        if (personalMovieDB.count >= 31) {
+            alert('You are top viewer!');
+        } else {
+            alert('Error happened!');
+        }
+    }
+}
+
+console.log(personalMovieDB);
+
+*/
